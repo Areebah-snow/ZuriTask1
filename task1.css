@@ -28,12 +28,13 @@
    background-color: rgba(255, 255, 255, 0.7);
    padding: 30px;
   border-radius: 30px;
+  min-width: 400px;
 }
 .name{
     
     display: flex;
     justify-content: space-between;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 .name h1{
     font-family: 'Pacifico', sans-serif;
