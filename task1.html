@@ -3,28 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <div>
+    <div class="main-container">
+
+        <div class="inner-container">
+            <div class="name">
+                <h1 data-testid="slackUserName">Hi! I'm Areebah</h1>
+                <img src="aisha.jpg" alt="Areebah's dp" data-testid="slackDisplayImage">
+            </div>
+           <!-- Slack Display Picture -->
+ 
+            <div class="details">
+  
+            
+                    <!-- Current Day of the Week -->
+                    <div>
+                        <p>Today is:</p>
+                        <span data-testid="currentDayOfTheWeek">Day of the week : Monday</span>
+                        
+                    </div>
+                    
+                    <!-- Current UTC Time -->
+                    <div>
+                        <p>The time is :</p>
+                        <span data-testid="currentUTCTime">Time : 1631234567890</span>
+                        
+                    </div>
+                    
+                    <!-- Track -->
+                    <div>
+                        <p>My Track:</p>
+                        <span data-testid="myTrack">Frontend</span>
+                        
+                    </div>
+                    
+                    <!-- GitHub URL -->
+                    <div>
+                        <p>You can check out this page's url here: </p>
+                        <a href="https://github.com/yourusername/your-repository" data-testid="githubURL">My GitHub Repository</a>
+    
+                    </div>
+                
+            </div>
         
-        <h1 data-testid="slackUserName">Areebah</h1>
-        
-        <!-- Slack Display Picture -->
-        <img src="" alt="Areebah's dp" data-testid="slackDisplayImage">
-        
-        <!-- Current Day of the Week -->
-        <p data-testid="currentDayOfTheWeek">Monday</p>
-        
-        <!-- Current UTC Time -->
-        <p data-testid="currentUTCTime">1631234567890</p>
-        
-        <!-- Track -->
-        <p data-testid="myTrack">Frontend</p>
-        
-        <!-- GitHub URL -->
-        <a href="https://github.com/yourusername/your-repository" data-testid="githubURL">My GitHub Repository</a>
-    </div>
+          </div>
+        </div>
+       
     
     <script>
        
